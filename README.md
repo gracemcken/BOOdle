@@ -86,7 +86,9 @@
 
 
 ## Wireframes
-
+![browser](docs/wireframes/browser.png)
+![tablet](docs/wireframes/tablet.png)
+![mobile](docs/wireframes/mobile.png)
 
 
 ## Typography
@@ -98,7 +100,7 @@
 
 ## Colour Scheme
 
-
+![colour-scheme](docs/readme_images/colour-scheme.png)
 
 # Testing
 
