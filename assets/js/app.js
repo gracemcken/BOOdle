@@ -32,6 +32,23 @@ const keys = [
   "<<"
 ];
 
+const guessRows = [
+    ['', '', '', '', ''],
+    ['', '', '', '', ''],
+    ['', '', '', '', ''],
+    ['', '', '', '', ''],
+    ['', '', '', '', ''],
+    ['', '', '', '', ''],
+
+]
+
+guessRows.forEach((guessRow, guessRowIndex) => {
+    const rowElement = document.createElement('div')
+    rowElement.setAttribute('id', 'guessRow-' + guessRowIndex)
+
+    tileDisplay.append(rowElement)
+})
+
 const handleClick = () => {
     console.log('clicked')
 }
