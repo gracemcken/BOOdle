@@ -29,6 +29,7 @@ const keys = [
   "B",
   "N",
   "M",
+  "<<"
 ];
 
 const handleClick = () => {
