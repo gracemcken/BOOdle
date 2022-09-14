@@ -36,3 +36,14 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.key-container button {
+    width: 2.6875rem;
+    height: 3.625rem;
+    border-radius: 4px ;
+    border: solid 1px #ffffff;
+    background-color: #d05301; 
+    color: #ffffff; 
+    margin: 4px;
+
+}
