@@ -10,7 +10,7 @@ body {
     background-color: #3a3330;
 
 }
-/** Justify content will only work as long as height is set **/
+
 .game-container {
     height: 90vh;
     display: flex;
