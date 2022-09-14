@@ -40,6 +40,7 @@
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) for the contents and structure of the website.
 - [CSS3](https://en.wikipedia.org/wiki/CSS) for the styling and animations.
+- [Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
 - [Balsamiq](https://balsamiq.com/) for wireframing.
 - [GitPod](https://gitpod.io/) as a local IDE & repository.
 - [GitHub](https://github.com/) as a remote repository.
