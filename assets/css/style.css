@@ -10,7 +10,7 @@ body {
     background-color: #3a3330;
 
 }
-
+/** Justify content will only work as long as height is set **/
 .game-container {
     height: 90vh;
     display: flex;
@@ -24,4 +24,15 @@ body {
     width: 510px;
     border-bottom: solid 1px #ffb83c;
 
+}
+
+.tile-container {
+    width: 20.625rem;
+    margin-bottom: 1.875rem;
+}
+
+.key-container {
+    width: 31.875rem;
+    display: flex;
+    flex-wrap: wrap;
 }
