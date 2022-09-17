@@ -130,7 +130,7 @@ Bug | Status
 
 
 # Credits
-
+Game logic walkthrough that was followed can be found [here](https://www.youtube.com/watch?v=mpby4HiElek). Credit to Ania Kubów.
 ### Images
 
 
