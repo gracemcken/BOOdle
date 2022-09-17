@@ -1,6 +1,7 @@
 const tileDisplay = document.querySelector(".tile-container");
 const keyboard = document.querySelector(".key-container");
 
+const boodle = 'SPOOK'
 const keys = [
   "Q",
   "W",
@@ -54,13 +55,14 @@ guessRows.forEach((guessRow, guessRowIndex) => {
     tileDisplay.append(rowElement)
 })
 
-const handleClick = () => {
-    console.log('clicked')
-}
 keys.forEach(key => {
     const buttonElement = document.createElement('button')
     buttonElement.textContent = key;
     buttonElement.setAttribute('id', key);
-    buttonElement.addEventListener('click', handleClick);
+    buttonElement.addEventListener('click', () => handleClick(key));
     keyboard.append(buttonElement)
 })
+
+const handleClick = (key) => {
+    console.log('clicked', key)
+}
