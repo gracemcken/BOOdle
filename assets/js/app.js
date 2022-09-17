@@ -66,6 +66,14 @@ keys.forEach(key => {
 
 const handleClick = (letter) => {
     console.log('clicked', letter)
+    if (letter === '<<') {
+        console.log('delete letter')
+        return
+    }
+    if (letter === 'ENTER') {
+        console.log('check row')
+        return
+    }
     addLetter(letter)
 }
 
