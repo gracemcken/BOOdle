@@ -143,12 +143,15 @@ const flipTile = () => {
   rowTiles.forEach((tile, index) => {
     const dataLetter = tile.getAttribute("data");
 
-    if (dataLetter == boodle[index]) {
-      tile.classList.add("green-overlay");
-    } else if (boodle.includes(dataLetter)) {
-      tile.classList.add("yellow-overlay");
-    } else {
-      tile.classList.add("grey-overlay");
-    }
+    setTimeout(() => {
+        tile.classList.add('flip')
+        if (dataLetter == boodle[index]) {
+            tile.classList.add("green-overlay");
+          } else if (boodle.includes(dataLetter)) {
+            tile.classList.add("yellow-overlay");
+          } else {
+            tile.classList.add("grey-overlay");
+          }
+    }, 500 * index)
   });
 };
