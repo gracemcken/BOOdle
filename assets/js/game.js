@@ -1,7 +1,7 @@
+//Game logic came from partially following a walkthrough on youtube, check credits for more info.
 const tileDisplay = document.querySelector(".tile-container");
 const keyboard = document.querySelector(".key-container");
 const messageDisplay = document.querySelector(".message-container");
-
 
 //Array of potential words
 let words = [
