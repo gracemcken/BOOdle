@@ -112,6 +112,7 @@ const checkRow = () => {
 
   if (currentTile > 4) {
     console.log("guess is " + guess, "boodle is " + boodle);
+    flipTile()
     if (boodle == guess) {
       showMessage("Spooktacular!");
       isGameOver = true;
@@ -138,7 +139,7 @@ const showMessage = (message) => {
 };
 
 const flipTile = () => {
-  const rowTiles = document.querySelector("guessRow-" + currentRow).childNodes;
+  const rowTiles = document.querySelector("#guessRow-" + currentRow).childNodes;
   rowTiles.forEach((tile, index) => {
     const dataLetter = tile.getAttribute("data");
 
