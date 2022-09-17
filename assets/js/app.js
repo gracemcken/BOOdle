@@ -44,6 +44,7 @@ const guessRows = [
 ]
 let currentRow = 0
 let currentTile = 0
+let isGameOver = false
 
 guessRows.forEach((guessRow, guessRowIndex) => {
     const rowElement = document.createElement('div')
@@ -102,10 +103,22 @@ const deleteLetter = () => {
 const checkRow = () => {
     const guess = guessRows[currentRow].join('')
 
-    if (currentTile === 5) {
+    if (currentTile > 4) {
         console.log('guess is ' + guess, 'boodle is ' + boodle)
         if (boodle == guess) {
             showMessage('Spooktacular!')
+            isGameOver = true
+            return
+        } else {
+            if (currentRow >= 5) {
+                isGameOver = true
+                showMessage('Game Over')
+                return
+            }
+            if (currentRow < 5) {
+                currentRow++
+                currentTile = 0
+            }
         }
     }
 }
