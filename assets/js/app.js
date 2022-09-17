@@ -145,21 +145,34 @@ const addColorToKey = (keyLetter, color) => {
 
 const flipTile = () => {
   const rowTiles = document.querySelector("#guessRow-" + currentRow).childNodes;
+  let checkBoodle = boodle
+  const guess = []
+
+  rowTiles.forEach(tile => {
+    guess.push({ letter: tile.getAttribute('data'), color: 'grey-overlay'})
+  })
+
+  guess.forEach((guess, index) => {
+    if (guess.letter == boodle[index]) {
+        guess.color = 'green-overlay'
+        checkBoodle = checkBoodle.replace(guess.letter, '')
+    }
+  })
+
+  guess.forEach(guess => {
+    if (checkBoodle.includes(guess.letter)) {
+        guess.color = 'yellow-overlay'
+        checkBoodle = checkBoodle.replace(guess.letter, '')
+    }
+  })
+
   rowTiles.forEach((tile, index) => {
     const dataLetter = tile.getAttribute("data");
 
     setTimeout(() => {
         tile.classList.add('flip')
-        if (dataLetter == boodle[index]) {
-            tile.classList.add("green-overlay");
-            addColorToKey(dataLetter, 'green-overlay')
-          } else if (boodle.includes(dataLetter)) {
-            tile.classList.add("yellow-overlay");
-            addColorToKey(dataLetter, 'yellow-overlay')
-          } else {
-            tile.classList.add("grey-overlay");
-            addColorToKey(dataLetter, 'grey-overlay')
-          }
+        tile.classList.add(guess[index].color)
+        addColorToKey(guess[index].letter, guess[index].color)
     }, 500 * index)
   });
 };
