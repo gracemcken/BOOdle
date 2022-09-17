@@ -114,4 +114,5 @@ const showMessage = (message) => {
     const messageElement = document.createElement('p')
     messageElement.textContent = message
     messageDisplay.append(messageElement)
+    setTimeout(() => messageDisplay.removeChild(messageElement), 2000)
 }
