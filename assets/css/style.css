@@ -83,7 +83,7 @@ body {
     margin: 0;
 }
 
-.tile .flip {
+.tile.flip {
     animation: 0.5s linear flipping;
 }
 
