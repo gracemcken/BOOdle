@@ -124,7 +124,7 @@
 Bug | Status 
 ----|-------
 Keyboard overflowed on smaller screen sizes| Resolved
-
+Keyboard disappeared during changes for responsiveness | Resolved
 ## Screenshots of bugs
 
 
