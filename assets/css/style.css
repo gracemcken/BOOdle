@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Noto+Serif+Georgian:wght@300&display=swap');
 
 * {
-    color: #ffffff;
+    color: #3a3330 ;
     font-family: 'Noto Sans Buhid';
 }
 
@@ -19,6 +19,69 @@ h1 {
     border: none;
     font-size: x-large;
 }
+
+.rules {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid #3a3330;
+    border-radius: 5px;
+    z-index: 10;
+    background-color: #ffb83c;
+    width: 500px;
+    max-width: 80%;
+}
+
+.rules.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.rules-header {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #3a3330;
+}
+
+.rules-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Noto Serif Georgian';
+}
+
+.rules-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-weight: bold;
+    font-size: x-large;
+}
+.rules-body {
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 24, 0, 0.2);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
 .game-container {
     margin: 0 auto;
     max-width: 510px;
