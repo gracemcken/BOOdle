@@ -2,16 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Noto+Serif+Georgian:wght@300&display=swap');
 
 * {
-
     color: #ffffff;
-    font: 'Noto Sans Buhid';
+    font-family: 'Noto Sans Buhid';
 }
 
 body {
     background-color: #3a3330;
-
 }
 
+h1 {
+    font-family: 'Noto Serif Georgian';
+}
 .game-container {
     margin: 0 auto;
     max-width: 510px;
@@ -23,6 +24,7 @@ body {
 }
 
 .title-container {
+    
     text-align: center;
     width: 510px;
     border-bottom: solid 1px #ffb83c;
@@ -64,6 +66,7 @@ body {
     margin-right: 6%
 }
 
+
 .key-container .key-row:nth-child(3) button:first-child {
     min-width: 55px;
 }
@@ -75,7 +78,6 @@ body {
 .key-row:nth-child(3) button:first-child, 
 .key-row:nth-child(3) button:last-child {
     flex: 2;
-}
 
 .tile-container div {
     display: flex;

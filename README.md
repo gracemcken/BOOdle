@@ -29,7 +29,7 @@
 
 
 # Site Overview
-
+[Link to Live Website](https://gracemcken.github.io/BOOdle/)
 
 ## Goal
 
@@ -52,7 +52,8 @@
 - [Visual Studio Code](https://code.visualstudio.com/) as a local IDE & repository.
 - [Favicon.io](https://favicon.io/favicon-generator/) to create a favicon.
 - [Font Awesome](https://fontawesome.com/) for icons.
-- [TinyPNG](https://tinypng.com/) to optimize images.
+- [Red Route](https://red-route.org/code/image-resizing-calculator) to help with size calculations for my keyboard buttons.
+
 
 # UX
 ## Target Audience
@@ -122,17 +123,18 @@
 
 Bug | Status 
 ----|-------
+Keyboard overflowed on smaller screen sizes| Resolved
 
 ## Screenshots of bugs
 
 
 ## Known Issues
-
+- On smaller screen sizes, the keyboard loses its tradition 'keyboard shape', which it has on larger screens. I tried many different things but I don't think it's within my skill to fix it. All buttons still work perfectly and it is fully functional, however it just does not look like I would hope it would.
 
 # Credits
 Game logic walkthrough that was followed can be found [here](https://www.youtube.com/watch?v=mpby4HiElek). Credit to Ania Kubów.
 ### Images
-
+The image of the ghost was found on [looka.com](looka.com).
 
 <hr>
 
