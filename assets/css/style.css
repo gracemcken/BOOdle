@@ -13,6 +13,12 @@ body {
 h1 {
     font-family: 'Noto Serif Georgian';
 }
+
+.info {
+    background: transparent;
+    border: none;
+    font-size: x-large;
+}
 .game-container {
     margin: 0 auto;
     max-width: 510px;
