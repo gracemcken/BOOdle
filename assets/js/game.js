@@ -24,37 +24,12 @@ randomWord = words[Math.floor(Math.random() * words.length)];
 let boodle;
 boodle = randomWord;
 
-//creates the keyboard keys
+//creates the keyboard keys, each row in a separate array
 const keys = [
-  "Q",
-  "W",
-  "E",
-  "R",
-  "T",
-  "Y",
-  "U",
-  "I",
-  "O",
-  "P",
-  "A",
-  "S",
-  "D",
-  "F",
-  "G",
-  "H",
-  "J",
-  "K",
-  "L",
-  "ENTER",
-  "Z",
-  "X",
-  "C",
-  "V",
-  "B",
-  "N",
-  "M",
-  "<<",
-];
+  ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
+  ["A", "S", "D", "F", "G", "H", "J", "K", "L"],
+  ["ENTER", "Z", "X", "C", "V", "B", "N", "M", "<<"]
+]
 
 //creates guess rows
 const guessRows = [
@@ -83,16 +58,23 @@ guessRows.forEach((guessRow, guessRowIndex) => {
     rowElement.append(tileElement);
   });
   tileDisplay.append(rowElement);
+  rowElement.classList.add('key-row')
 });
 
-//Function to create keyboard buttons for each letter
-keys.forEach((key) => {
-  const buttonElement = document.createElement("button");
-  buttonElement.textContent = key;
-  buttonElement.setAttribute("id", key);
-  buttonElement.addEventListener("click", () => handleClick(key));
-  keyboard.append(buttonElement);
-});
+//Function to class to each row, create keyboard buttons for each letter in each row
+keys.forEach((row) => {
+
+  row.forEach((key) => {
+      const buttonElement = document.createElement("button");
+      buttonElement.textContent = key;
+      buttonElement.setAttribute("id", key);
+      buttonElement.addEventListener("click", () => handleClick(key));
+      rowElement.append(buttonElement);
+    });
+    keyboard.append(rowElement);
+  })
+
+
 
 //Function to create effects from pressing special keys
 const handleClick = (letter) => {
