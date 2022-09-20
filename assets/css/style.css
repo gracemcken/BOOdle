@@ -13,6 +13,8 @@ body {
 }
 
 .game-container {
+    margin: 0 auto;
+    max-width: 510px;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -33,15 +35,15 @@ body {
 }
 
 .key-container {
-    width: 510px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .key-container button {
-    width: 43px;
+    flex: 1;
     height: 58px;
-    border-radius: 4px ;
+    border-radius: 4px;
     border: solid 1px #ffffff;
     background-color: #d05301; 
     color: #ffffff; 
@@ -49,13 +51,30 @@ body {
 
 }
 
-.key-container button:nth-child(11) {
-    margin-left: 30px;
+.key-container .key-row {
+    width: 100%;
+    display: flex;
 }
 
-.key-container button:nth-child(20),
-.key-container button:nth-child(28) {
-    width: 68px;
+.key-container .key-row:nth-child(2) button:first-child {
+    margin-left: 6%;
+}
+
+.key-container .key-row:nth-child(2) button:last-child {
+    margin-right: 6%
+}
+
+.key-container .key-row:nth-child(3) button:first-child {
+    min-width: 55px;
+}
+
+.key-container .key-row:nth-child(3) button:last-child {
+    min-width: 35px;
+} 
+
+.key-row:nth-child(3) button:first-child, 
+.key-row:nth-child(3) button:last-child {
+    flex: 2;
 }
 
 .tile-container div {
@@ -128,10 +147,7 @@ body {
     .key-container {
         max-width: 100vw;
     }
-    .key-container button {
-        width: 34px;
-        height: 45.86px;
-    }
+    
     .key-container button:nth-child(11) {
         margin-left: 4px;
     }
