@@ -143,7 +143,7 @@ const checkRow = () => {
     console.log("guess is " + guess, "boodle is " + boodle);
     flipTile();
     if (boodle == guess) {
-      showMessage("Spooktacular!");
+      showMessage("Spooktacular! You guessed the correct word!");
       isGameOver = true;
       return;
     } else {
@@ -165,7 +165,7 @@ const showMessage = (message) => {
   const messageElement = document.createElement("p");
   messageElement.textContent = message;
   messageDisplay.append(messageElement);
-  setTimeout(() => messageDisplay.removeChild(messageElement), 2000);
+  setTimeout(() => messageDisplay.removeChild(messageElement), 5000);
 };
 
 //Adds colors to keys
