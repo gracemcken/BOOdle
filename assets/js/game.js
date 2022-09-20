@@ -60,12 +60,12 @@ guessRows.forEach((guessRow, guessRowIndex) => {
     rowElement.append(tileElement);
   });
   tileDisplay.append(rowElement);
-  rowElement.classList.add('key-row')
 });
 
 //Function to class to each row, create keyboard buttons for each letter in each row
 keys.forEach((row) => {
-
+  let rowElement = document.createElement("div");
+  rowElement.classList.add('key-row')
   row.forEach((key) => {
       const buttonElement = document.createElement("button");
       buttonElement.textContent = key;

@@ -78,7 +78,7 @@ h1 {
 .key-row:nth-child(3) button:first-child, 
 .key-row:nth-child(3) button:last-child {
     flex: 2;
-
+}
 .tile-container div {
     display: flex;
 }
