@@ -45,7 +45,6 @@ const keys = [
   "J",
   "K",
   "L",
-  "ENTER",
   "Z",
   "X",
   "C",
@@ -53,6 +52,7 @@ const keys = [
   "B",
   "N",
   "M",
+  "ENTER",
   "<<",
 ];
 
