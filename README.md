@@ -133,6 +133,7 @@ Win message showing incorrectly behind tiles | Resolved
 # Credits
 - Game logic walkthrough that was followed can be found [here](https://www.youtube.com/watch?v=mpby4HiElek). Credit to Ania Kubów.
 - Tutorial on building a modal for the rules can be found [here](https://www.youtube.com/watch?v=MBaw_6cPmAw). Credit to Web Dev Simplified.
+- Toggle CSS was learned [here](https://www.w3schools.com/howto/howto_css_switch.asp) Credit to W3Schools.
 ### Images
 The image of the ghost was found on [looka.com](looka.com).
 
@@ -146,4 +147,5 @@ The image of the ghost was found on [looka.com](looka.com).
 # Acknowledgments
 - Special thanks to Bim Williams and Brynjar Nilsen for their help with responsiveness, when I thought all hope was lost they brought me back down to Earth reminding me that making things more complicated isn't always the worst thing in the world.
 - To my partner James who came up with the list of words and who fed me when I got too engrossed in coding to remember to eat.
+- My mentor Spencer, who suggested adding music and as always has been extremely supportive during our meetings.
 
