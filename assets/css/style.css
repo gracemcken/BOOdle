@@ -14,6 +14,10 @@ h1 {
     font-family: 'Noto Serif Georgian';
 }
 
+ul li {
+    color: #3a3330;
+}
+
 .info {
     background: transparent;
     border: 1px solid;
