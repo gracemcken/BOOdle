@@ -131,7 +131,8 @@ Win message showing incorrectly behind tiles | Resolved
 - On smaller screen sizes, the keyboard loses its tradition 'keyboard shape', which it has on larger screens. I tried many different things but I don't think it's within my skill to fix it. All buttons still work perfectly and it is fully functional, however it just does not look like I would hope it would.
 
 # Credits
-Game logic walkthrough that was followed can be found [here](https://www.youtube.com/watch?v=mpby4HiElek). Credit to Ania Kubów.
+- Game logic walkthrough that was followed can be found [here](https://www.youtube.com/watch?v=mpby4HiElek). Credit to Ania Kubów.
+- Tutorial on building a modal for the rules can be found [here](https://www.youtube.com/watch?v=MBaw_6cPmAw). Credit to Web Dev Simplified.
 ### Images
 The image of the ghost was found on [looka.com](looka.com).
 
@@ -143,5 +144,6 @@ The image of the ghost was found on [looka.com](looka.com).
 
 
 # Acknowledgments
-
+- Special thanks to Bim Williams and Brynjar Nilsen for their help with responsiveness, when I thought all hope was lost they brought me back down to Earth reminding me that making things more complicated isn't always the worst thing in the world.
+- To my partner James who came up with the list of words and who fed me when I got too engrossed in coding to remember to eat.
 
