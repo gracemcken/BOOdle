@@ -16,8 +16,8 @@ h1 {
 
 .info {
     background: transparent;
-    border: none;
-    font-size: x-large;
+    border: 1px solid;
+    font-size: small;
 }
 
 .rules {
