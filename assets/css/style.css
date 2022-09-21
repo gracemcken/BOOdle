@@ -1,237 +1,285 @@
 /* Google fonts: Noto Sans Buhid for small text, Noto Serif Georgian for headings */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Noto+Serif+Georgian:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Noto+Serif+Georgian:wght@300&display=swap");
 
 * {
-    color: #ffffff ;
-    font-family: 'Noto Sans Buhid';
+  color: #ffffff;
+  font-family: "Noto Sans Buhid";
 }
 
 body {
-    background-color: #3a3330;
+  background-color: #3a3330;
 }
 
 h1 {
-    font-family: 'Noto Serif Georgian';
+  font-family: "Noto Serif Georgian";
 }
 
 ul li {
-    color: #3a3330;
+  color: #3a3330;
+}
+
+/* Music toggle switch */
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 17px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #d05301;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #d05301;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(13px);
+  -ms-transform: translateX(13px);
+  transform: translateX(13px);
 }
 
 .info {
-    background: transparent;
-    border: 1px solid;
-    font-size: small;
+  background: transparent;
+  border: 1px solid;
+  font-size: small;
 }
 
 .rules {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
-    border: 1px solid #3a3330;
-    border-radius: 5px;
-    z-index: 10;
-    background-color: #ffb83c;
-    width: 500px;
-    max-width: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid #3a3330;
+  border-radius: 5px;
+  z-index: 10;
+  background-color: #ffb83c;
+  width: 500px;
+  max-width: 80%;
 }
 
 .rules.active {
-    transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .rules-header {
-    padding: 10px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #3a3330;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #3a3330;
 }
 
 .rules-header .title {
-    color: #3a3330;
-    font-size: 1.25rem;
-    font-weight: bold;
-    font-family: 'Noto Serif Georgian';
+  color: #3a3330;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: "Noto Serif Georgian";
 }
 
 .rules-header .close-button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-weight: bold;
-    font-size: x-large;
-    color: #3a3330;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-weight: bold;
+  font-size: x-large;
+  color: #3a3330;
 }
 .rules-body {
-    color: #3a3330;
-    padding: 10px 10px;
-    
+  color: #3a3330;
+  padding: 10px 10px;
 }
 
 #overlay {
-    position: fixed;
-    opacity: 0;
-    transition: 200ms ease-in-out;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 24, 0, 0.2);
-    pointer-events: none;
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 24, 0, 0.2);
+  pointer-events: none;
 }
 
 #overlay.active {
-    opacity: 1;
-    pointer-events: all;
+  opacity: 1;
+  pointer-events: all;
 }
 
 .game-container {
-    margin: 0 auto;
-    max-width: 510px;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  margin: 0 auto;
+  max-width: 510px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .title-container {
-    
-    text-align: center;
-    width: 510px;
-    border-bottom: solid 1px #d05301;
-
+  text-align: center;
+  width: 510px;
+  border-bottom: solid 1px #d05301;
 }
 
 .tile-container {
-    width: 330px;
-    margin-bottom: 30px;
+  width: 330px;
+  margin-bottom: 30px;
 }
 
 .key-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .key-container button {
-    flex: 1;
-    height: 58px;
-    border-radius: 4px;
-    border: solid 1px #d05301;
-    background-color: #ffb83c; 
-    color: #3a3330; 
-    margin: 4px;
-
+  flex: 1;
+  height: 58px;
+  border-radius: 4px;
+  border: solid 1px #d05301;
+  background-color: #ffb83c;
+  color: #3a3330;
+  margin: 4px;
 }
 
 .key-container .key-row {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
 .key-container .key-row:nth-child(2) button:first-child {
-    margin-left: 6%;
+  margin-left: 6%;
 }
 
 .key-container .key-row:nth-child(2) button:last-child {
-    margin-right: 6%
+  margin-right: 6%;
 }
 
-
 .key-container .key-row:nth-child(3) button:first-child {
-    min-width: 55px;
+  min-width: 55px;
 }
 
 .key-container .key-row:nth-child(3) button:last-child {
-    min-width: 35px;
-} 
+  min-width: 35px;
+}
 
-.key-row:nth-child(3) button:first-child, 
+.key-row:nth-child(3) button:first-child,
 .key-row:nth-child(3) button:last-child {
-    flex: 2;
+  flex: 2;
 }
 .tile-container div {
-    display: flex;
+  display: flex;
 }
 
 .tile-container .tile {
-    width: 62px;
-    height: 62px;
-    border: 2px solid #d05301;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2px;
+  width: 62px;
+  height: 62px;
+  border: 2px solid #d05301;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
 }
 
 .message-container {
-    height: 40px;
+  height: 40px;
 }
 
 .message-container p {
-    background-color: #818384;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 0;
-    position: fixed;
-    z-index: 11;
+  background-color: #818384;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0;
+  position: fixed;
+  z-index: 11;
 }
 
 .tile.flip {
-    animation: 0.5s linear flipping;
+  animation: 0.5s linear flipping;
 }
 
 @keyframes flipping {
-    0% {
-        transform: rotateX(0deg);
-    }
-    50% {
-        transform: rotateX(90deg);
-    }
-    100% {
-        transform: rotateX(0deg);
-    }
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
 }
 
 .grey-overlay {
-    background-color: #3a3a3c !important;
-    border: none !important
+  background-color: #3a3a3c !important;
+  border: none !important;
 }
 
 .yellow-overlay {
-    background-color: #b59f4a !important;
-    border: none !important;
+  background-color: #b59f4a !important;
+  border: none !important;
 }
 
 .green-overlay {
-    background-color: #538d4e !important;
-    border: none !important;
+  background-color: #538d4e !important;
+  border: none !important;
 }
 
 @media screen and (min-width: 320px) and (max-width: 567px) {
+  .title-container {
+    max-width: 100vw;
+  }
+  .tile-container {
+    max-width: 100vw;
+    margin-bottom: 5px;
+  }
+  .key-container {
+    max-width: 100vw;
+  }
 
-    .title-container {
-        max-width: 100vw;
-        
-    }
-    .tile-container {
-        max-width: 100vw;
-        margin-bottom: 5px;
-    }
-    .key-container {
-        max-width: 100vw;
-    }
-    
-    .key-container button:nth-child(11) {
-        margin-left: 4px;
-    }
-    h1 {
-        margin: auto;
-    }
+  .key-container button:nth-child(11) {
+    margin-left: 4px;
+  }
+  h1 {
+    margin: auto;
+  }
 }
