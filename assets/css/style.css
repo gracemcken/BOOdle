@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid&family=Noto+Serif+Georgian:wght@300&display=swap');
 
 * {
-    color: #3a3330 ;
+    color: #ffffff ;
     font-family: 'Noto Sans Buhid';
 }
 
@@ -47,6 +47,7 @@ h1 {
 }
 
 .rules-header .title {
+    color: #3a3330;
     font-size: 1.25rem;
     font-weight: bold;
     font-family: 'Noto Serif Georgian';
@@ -61,6 +62,7 @@ h1 {
     font-size: x-large;
 }
 .rules-body {
+    color: #3a3330;
     padding: 10px 10px;
     text-align: justify;
 }
