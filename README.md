@@ -125,6 +125,7 @@ Bug | Status
 Keyboard overflowed on smaller screen sizes| Resolved
 Keyboard disappeared during changes for responsiveness | Resolved
 Favicon would not show on live site | Resolved
+Win message showing incorrectly behind tiles | Resolved
 
 ## Known Issues
 - On smaller screen sizes, the keyboard loses its tradition 'keyboard shape', which it has on larger screens. I tried many different things but I don't think it's within my skill to fix it. All buttons still work perfectly and it is fully functional, however it just does not look like I would hope it would.
