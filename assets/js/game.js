@@ -3,35 +3,35 @@ const tileDisplay = document.querySelector(".tile-container");
 const keyboard = document.querySelector(".key-container");
 const messageDisplay = document.querySelector(".message-container");
 
-//rules pop up
-const openRulesButton = document.querySelectorAll('[data-rules-target]')
-const closeRulesButton = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
+//rules pop up functions
+const openRulesButton = document.querySelectorAll("[data-rules-target]");
+const closeRulesButton = document.querySelectorAll("[data-close-button]");
+const overlay = document.getElementById("overlay");
 
-openRulesButton.forEach(button => {
-  button.addEventListener('click', () => {
-    const rules = document.querySelector(button.dataset.rulesTarget)
-    openRules(rules)
-  })
-})
+openRulesButton.forEach((button) => {
+  button.addEventListener("click", () => {
+    const rules = document.querySelector(button.dataset.rulesTarget);
+    openRules(rules);
+  });
+});
 
-closeRulesButton.forEach(button => {
-  button.addEventListener('click', () => {
-    const rules = button.closest('.rules')
-    closeRules(rules)
-  })
-})
+closeRulesButton.forEach((button) => {
+  button.addEventListener("click", () => {
+    const rules = button.closest(".rules");
+    closeRules(rules);
+  });
+});
 
 function openRules(rules) {
-  if (rules == null) return
-  rules.classList.add('active')
-  overlay.classList.add('active')
+  if (rules == null) return;
+  rules.classList.add("active");
+  overlay.classList.add("active");
 }
 
 function closeRules(rules) {
-  if (rules == null) return
-  rules.classList.remove('active')
-  overlay.classList.remove('active')
+  if (rules == null) return;
+  rules.classList.remove("active");
+  overlay.classList.remove("active");
 }
 
 //Array of potential words
@@ -45,6 +45,16 @@ let words = [
   "SCARY",
   "CANDY",
   "SWEET",
+  "DEVIL",
+  "SOULS",
+  "CLOWN",
+  "SCARE",
+  "TRICK",
+  "TREAT",
+  "NIGHT",
+  "APPLE",
+  "CLOAK",
+  "CAPES",
 ];
 
 //Generates a random word from the above array
@@ -57,12 +67,10 @@ boodle = randomWord;
 
 //creates the keyboard keys, each row in a separate array
 const keys = [
-
   ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
   ["A", "S", "D", "F", "G", "H", "J", "K", "L"],
-  ["ENTER", "Z", "X", "C", "V", "B", "N", "M", "<<"]
-]
-
+  ["ENTER", "Z", "X", "C", "V", "B", "N", "M", "<<"],
+];
 
 //creates guess rows
 const guessRows = [
@@ -96,18 +104,16 @@ guessRows.forEach((guessRow, guessRowIndex) => {
 //Function to class to each row, create keyboard buttons for each letter in each row
 keys.forEach((row) => {
   let rowElement = document.createElement("div");
-  rowElement.classList.add('key-row')
+  rowElement.classList.add("key-row");
   row.forEach((key) => {
-      const buttonElement = document.createElement("button");
-      buttonElement.textContent = key;
-      buttonElement.setAttribute("id", key);
-      buttonElement.addEventListener("click", () => handleClick(key));
-      rowElement.append(buttonElement);
-    });
-    keyboard.append(rowElement);
-  })
-
-
+    const buttonElement = document.createElement("button");
+    buttonElement.textContent = key;
+    buttonElement.setAttribute("id", key);
+    buttonElement.addEventListener("click", () => handleClick(key));
+    rowElement.append(buttonElement);
+  });
+  keyboard.append(rowElement);
+});
 
 //Function to create effects from pressing special keys
 const handleClick = (letter) => {
@@ -214,7 +220,7 @@ const flipTile = () => {
   });
 
   rowTiles.forEach((tile, index) => {
-    const dataLetter = tile.getAttribute("data");
+    
 
     setTimeout(() => {
       tile.classList.add("flip");
