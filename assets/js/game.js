@@ -66,12 +66,7 @@ let words = [
 ];
 
 //Generates a random word from the above array
-let randomWord;
-randomWord = words[Math.floor(Math.random() * words.length)];
-
-//Sets the boodle to a random word
-let boodle;
-boodle = randomWord;
+const boodle = words[Math.floor(Math.random() * words.length)];
 
 //creates the keyboard keys, each row in a separate array
 const keys = [
