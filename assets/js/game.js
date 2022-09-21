@@ -55,6 +55,14 @@ let words = [
   "APPLE",
   "CLOAK",
   "CAPES",
+  "GRAVE",
+  "WITCH",
+  "ALIEN",
+  "MAGIC",
+  "BLOOD",
+  "FAIRY",
+  "CURSE",
+  "HEXES",
 ];
 
 //Generates a random word from the above array
@@ -220,8 +228,6 @@ const flipTile = () => {
   });
 
   rowTiles.forEach((tile, index) => {
-    
-
     setTimeout(() => {
       tile.classList.add("flip");
       tile.classList.add(guess[index].color);
