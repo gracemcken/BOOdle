@@ -3,6 +3,37 @@ const tileDisplay = document.querySelector(".tile-container");
 const keyboard = document.querySelector(".key-container");
 const messageDisplay = document.querySelector(".message-container");
 
+//rules pop up
+const openRulesButton = document.querySelectorAll('[data-rules-target]')
+const closeRulesButton = document.querySelectorAll('[data-close-button]')
+const overlay = document.getElementById('overlay')
+
+openRulesButton.forEach(button => {
+  button.addEventListener('click', () => {
+    const rules = document.querySelector(button.dataset.rulesTarget)
+    openRules(rules)
+  })
+})
+
+closeRulesButton.forEach(button => {
+  button.addEventListener('click', () => {
+    const rules = button.closest('.rules')
+    closeRules(rules)
+  })
+})
+
+function openRules(rules) {
+  if (rules == null) return
+  rules.classList.add('active')
+  overlay.classList.add('active')
+}
+
+function closeRules(rules) {
+  if (rules == null) return
+  rules.classList.remove('active')
+  overlay.classList.remove('active')
+}
+
 //Array of potential words
 let words = [
   "SKULL",
