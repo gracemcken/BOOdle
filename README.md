@@ -23,6 +23,7 @@
   - [Known Issues](#known-issues)
 - [Credits](#credits)
     - [Images](#images-1)
+    - [Music](#music)
     - [Version Control](#version-control)
 - [Acknowledgments](#acknowledgments)
 
@@ -134,8 +135,14 @@ Win message showing incorrectly behind tiles | Resolved
 - Game logic walkthrough that was followed can be found [here](https://www.youtube.com/watch?v=mpby4HiElek). Credit to Ania Kubów.
 - Tutorial on building a modal for the rules can be found [here](https://www.youtube.com/watch?v=MBaw_6cPmAw). Credit to Web Dev Simplified.
 - Toggle CSS was learned [here](https://www.w3schools.com/howto/howto_css_switch.asp) Credit to W3Schools.
+- Implementing play and pause music using JavaScript was learned [here](https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click) on Slack Overflow.
 ### Images
 The image of the ghost was found on [looka.com](looka.com).
+
+### Music
+Music from Uppbeat (free for Creators!):
+https://uppbeat.io/t/v-draganov/mystery-box
+License code: KRILPLHGWRT1Q9CM
 
 <hr>
 
