@@ -204,10 +204,12 @@ const flipTile = () => {
   let checkBoodle = boodle;
   const guess = [];
 
+  //Grey overlay function
   rowTiles.forEach((tile) => {
     guess.push({ letter: tile.getAttribute("data"), color: "grey-overlay" });
   });
 
+  //Green overlay function
   guess.forEach((guess, index) => {
     if (guess.letter == boodle[index]) {
       guess.color = "green-overlay";
@@ -215,6 +217,7 @@ const flipTile = () => {
     }
   });
 
+  //Yellow overlay function
   guess.forEach((guess) => {
     if (checkBoodle.includes(guess.letter)) {
       guess.color = "yellow-overlay";
@@ -222,6 +225,7 @@ const flipTile = () => {
     }
   });
 
+  //Flip
   rowTiles.forEach((tile, index) => {
     setTimeout(() => {
       tile.classList.add("flip");
