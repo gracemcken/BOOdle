@@ -3,6 +3,12 @@ const tileDisplay = document.querySelector(".tile-container");
 const keyboard = document.querySelector(".key-container");
 const messageDisplay = document.querySelector(".message-container");
 
+//Music toggle
+function togglePlay() {
+  document.getElementById("isAudio");
+  return myAudio.paused ? myAudio.play() : myAudio.pause();
+}
+
 //rules pop up functions
 const openRulesButton = document.querySelectorAll("[data-rules-target]");
 const closeRulesButton = document.querySelectorAll("[data-close-button]");
