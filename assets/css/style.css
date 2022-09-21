@@ -64,6 +64,7 @@ ul li {
     background: none;
     font-weight: bold;
     font-size: x-large;
+    color: #3a3330;
 }
 .rules-body {
     color: #3a3330;
@@ -102,7 +103,7 @@ ul li {
     
     text-align: center;
     width: 510px;
-    border-bottom: solid 1px #ffb83c;
+    border-bottom: solid 1px #d05301;
 
 }
 
@@ -121,9 +122,9 @@ ul li {
     flex: 1;
     height: 58px;
     border-radius: 4px;
-    border: solid 1px #ffffff;
-    background-color: #d05301; 
-    color: #ffffff; 
+    border: solid 1px #d05301;
+    background-color: #ffb83c; 
+    color: #3a3330; 
     margin: 4px;
 
 }
@@ -161,7 +162,7 @@ ul li {
 .tile-container .tile {
     width: 62px;
     height: 62px;
-    border: 2px solid #ffb83c;
+    border: 2px solid #d05301;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
