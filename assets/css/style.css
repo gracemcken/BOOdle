@@ -266,6 +266,11 @@ input:checked + .slider:before {
 /* container for pop up message */
 .message-container {
   height: 40px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 60vh;
 }
 
 /* Styles for inside the message container */
@@ -276,6 +281,12 @@ input:checked + .slider:before {
   margin: 0;
   position: fixed;
   z-index: 11;
+}
+
+/* refresh button */
+.message-container button {
+  color: #3a3330;
+  font-weight: bold;
 }
 /* Media queries for screens smaller than tablets */
 @media screen and (min-width: 320px) and (max-width: 567px) {
