@@ -4,12 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Halloween themed Wordle game, complete with rules and toggled spooky music"
+    />
+    <meta
+      name="keywords"
+      content="wordle, halloween, spooky, game, words, javascript"
+    />
+    <!-- Link to favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <title>BOOdle</title>
+    <!-- Link to style sheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <!-- Main container for the game -->
     <div class="game-container">
+      <!-- Container for logo, title, rules button and music toggle -->
       <div class="title-container">
         <h1>
           <img
@@ -28,7 +40,9 @@
           </label>
         </h1>
       </div>
+      <!-- Hidden div that shows when game is won -->
       <div class="message-container"></div>
+      <!-- Hidden div that shows when rules button is clicked -->
       <div class="rules" id="rules">
         <div class="rules-header">
           <div class="title">How to Play</div>
@@ -51,12 +65,16 @@
           again!
         </div>
       </div>
+      <!-- Overlay that activates when the rules pop up is opened, prevents clicking on anything in the background -->
       <div id="overlay"></div>
-
+      <!-- Container for the tiles -->
       <div class="tile-container"></div>
+      <!-- Container for the keyboard -->
       <div class="key-container"></div>
     </div>
+    <!-- JavaScript script link -->
     <script src="assets/js/game.js"></script>
+    <!-- Audio file that plays when toggled at the top of the page -->
     <audio
       loop
       id="myAudio"
