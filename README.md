@@ -1,3 +1,5 @@
+![Last commit](https://img.shields.io/github/last-commit/gracemcken/BOOdle)
+
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
@@ -53,6 +55,7 @@
 - [Favicon.io](https://favicon.io/favicon-generator/) to create a favicon.
 - [Font Awesome](https://fontawesome.com/) for icons.
 - [Red Route](https://red-route.org/code/image-resizing-calculator) to help with size calculations for my keyboard buttons.
+- [WAVE](https://wave.webaim.org/)
 
 
 # UX
@@ -72,21 +75,6 @@
 # Design
 
 
-- Best Practices:
-
-    - HTML doc type included in the html for all pages.
-
-- Search Engine Optimization:
-
-    - Semantic HTML included in all internal pages created.
-
-    - All links have descriptive text added.
-
-    - Alt attributes added to all images.
-
-    - Meta-data descriptions added to each internal page created.
-
-
 ## Wireframes
 ![browser](docs/wireframes/browser.png)
 ![tablet](docs/wireframes/tablet.png)
@@ -101,6 +89,10 @@
 
 
 ## Colour Scheme
+
+When choosing the colour scheme for this project, I had a very clear idea in my mind of what I wanted. Due to the Halloween theme, I felt some oranges, browns and dark yellows suited it most. I did however have to change where I used certain colours. 
+
+For example, I used #D05301 as the colour for the keys, with white as the font colour. To me, it seemed like a nice contrast however when I checked the site with [WAVE](https://wave.webaim.org/) I found out that the contrast was an issue. To fix this, I changed the primary colour of the keys to #FFB83C, with a border of #D05301, and used #3a3330 as the font colour. This solved that issue while maintaining the colour scheme and look I wanted.
 
 ![colour-scheme](docs/readme_images/colour-scheme.png)
 
@@ -127,9 +119,12 @@ Keyboard overflowed on smaller screen sizes| Resolved
 Keyboard disappeared during changes for responsiveness | Resolved
 Favicon would not show on live site | Resolved
 Win message showing incorrectly behind tiles | Resolved
+Page refreshed before button was clicked | Resolved
+Keys squished too much on smaller screens | Resolved
 
 ## Known Issues
-- On smaller screen sizes, the keyboard loses its tradition 'keyboard shape', which it has on larger screens. I tried many different things but I don't think it's within my skill to fix it. All buttons still work perfectly and it is fully functional, however it just does not look like I would hope it would.
+- On smaller screen sizes, the keyboard becomes slightly more squished. I attempted to fix this to the best of my ability but I feel this is still an issue.
+- On some small screens there is a small amount on vertical scroll, initially it was worse and the user could not see the first row of tiles when using the keyboard but I changed the CSS to fix this. While there's still a small amount of scroll on some small screens, it now does not disrupt the game.
 
 # Credits
 - Game logic walkthrough that was followed can be found [here](https://www.youtube.com/watch?v=mpby4HiElek). Credit to Ania Kubów.
