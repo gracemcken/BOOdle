@@ -173,13 +173,15 @@ const checkRow = () => {
     console.log("guess is " + guess, "boodle is " + boodle);
     flipTile();
     if (boodle == guess) {
-      showMessage("Spooktacular! You guessed the correct word!");
+      showMessage(
+        "Spooktacular! You guessed the correct word! Want to play again?  "
+      );
       isGameOver = true;
       return;
     } else {
       if (currentRow >= 5) {
         isGameOver = true;
-        showMessage("Game Over");
+        showMessage("Game Over! Want to try again?  ");
         return;
       }
       if (currentRow < 5) {
