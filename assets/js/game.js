@@ -126,7 +126,6 @@ keys.forEach((row) => {
 
 //Function to create effects from pressing special keys
 const handleClick = (letter) => {
-  console.log("clicked", letter);
   if (letter === "<<") {
     deleteLetter();
     return;
@@ -148,7 +147,6 @@ const addLetter = (letter) => {
     guessRows[currentRow][currentTile] = letter;
     tile.setAttribute("data", letter);
     currentTile++;
-    console.log("guessRows", guessRows);
   }
 };
 
@@ -170,7 +168,6 @@ const checkRow = () => {
   const guess = guessRows[currentRow].join("");
 
   if (currentTile > 4) {
-    console.log("guess is " + guess, "boodle is " + boodle);
     flipTile();
     if (boodle == guess) {
       showMessage(
