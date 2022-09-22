@@ -301,6 +301,10 @@ input:checked + .slider:before {
     max-width: 100vw;
   }
 
+  .key-container button {
+    height: 40px;
+  }
+
   .key-container button:nth-child(11) {
     margin-left: 4px;
   }
