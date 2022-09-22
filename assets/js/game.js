@@ -189,12 +189,20 @@ const checkRow = () => {
     }
   }
 };
+//Function to refresh page
 
 //Function to create message
 const showMessage = (message) => {
   const messageElement = document.createElement("p");
+  const refreshButton = document.createElement("button");
   messageElement.textContent = message;
+  refreshButton.innerHTML = "Click here!";
   messageDisplay.append(messageElement);
+  messageElement.append(refreshButton);
+  function reloadPage() {
+    window.location.reload();
+  }
+  refreshButton.addEventListener("click", reloadPage);
 };
 
 //Adds colors to keys
