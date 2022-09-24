@@ -17,6 +17,8 @@
   - [User Stories](#user-stories)
 - [Features](#features)
   - [Existing Features](#existing-features)
+    - [Rules Button](#rules-button)
+    - [Music Toggle](#music-toggle)
   - [Future Features](#future-features)
 - [Design](#design)
   - [Wireframes](#wireframes)
@@ -76,7 +78,15 @@ The goal of this project was to produce a game based on the famous puzzle 'Wordl
 # Features
 
 ## Existing Features
+### Rules Button
+To ensure the user understands the rules of the game, I included a modal that fills the screen when the rules button is clicked. While the modal is active, and overlay covers the rest of the screen and prevents the user from clicking on anything else until they close it.
 
+![rules-modal](docs/readme_images/rules-popup.gif)
+
+### Music Toggle
+I decided I wanted to add some atmospheric music to the game, however was very aware that people do not enjoy autoplaying music. The solution to this was a toggle at the top of the game beside the rules button. The user simply clicks it once to start the music, and then can click it again to pause it. If the user wants to continue the music, all they have to do is click again and it will resume where it had been paused.
+
+![music-toggle](docs/readme_images/music-toggle.gif)
 
 ## Future Features
 - I would like to create a colour blind mode, similar to what the official Wordle game has. When testing, I ensured there was enough contrast with my colours, however once I finished coding my project I discovered a chrome extension which simulates colour blindness. While having high contrasting colours did help, I still found it quite difficult to play the game. I've since done some research on how to make a colour blind mode and would like to implement it in the future to make the game as accessible as I can. 
