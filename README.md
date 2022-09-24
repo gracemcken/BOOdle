@@ -22,6 +22,7 @@
     - [Music Toggle](#music-toggle)
     - [The Game Tiles and Keyboard](#the-game-tiles-and-keyboard)
     - [Win Screen and Refresh](#win-screen-and-refresh)
+    - [Game Over and Refresh](#game-over-and-refresh)
   - [Future Features](#future-features)
 - [Design](#design)
   - [Wireframes](#wireframes)
@@ -98,6 +99,11 @@ Our main game appearance is very similar to the original Wordle game, although c
 If you guess the correct word, a pop up message will appear containing a button that when clicked, will refresh the page and restart the game. 
 
 ![game-win-screen](docs/readme_images/game-win-refresh.gif)
+
+### Game Over and Refresh
+Similarly, if you use up all of your attempts at guessing the word, a notification will pop up telling you that it's game over and will provide you with a button to click that will refresh the page so you can try again.
+
+![game-over](docs/readme_images/game-over.gif)
 
 ## Future Features
 - I would like to create a colour blind mode, similar to what the official Wordle game has. When testing, I ensured there was enough contrast with my colours, however once I finished coding my project I discovered a chrome extension which simulates colour blindness. While having high contrasting colours did help, I still found it quite difficult to play the game. I've since done some research on how to make a colour blind mode and would like to implement it in the future to make the game as accessible as I can. 
