@@ -288,6 +288,7 @@ input:checked + .slider:before {
   color: #3a3330;
   font-weight: bold;
 }
+
 /* Media queries for screens smaller than tablets */
 @media screen and (min-width: 320px) and (max-width: 567px) {
   .title-container {
