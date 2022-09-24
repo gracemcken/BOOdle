@@ -31,11 +31,6 @@
     - [Mobile](#mobile)
   - [Typography](#typography)
   - [Colour Scheme](#colour-scheme)
-- [Testing](#testing)
-  - [Functional Testing](#functional-testing)
-  - [Browser Testing](#browser-testing)
-  - [Device Testing](#device-testing)
-  - [Validator Testing](#validator-testing)
   - [Bugs](#bugs)
   - [Known Issues](#known-issues)
 - [Credits](#credits)
@@ -139,29 +134,6 @@ For example, I used #D05301 as the colour for the keys, with white as the font c
 
 ![colour-scheme](docs/readme_images/colour-scheme.png)
 
-# Testing
-
-## Functional Testing
-
-
-## Browser Testing 
-Browser Tested | Working Status
----------------|---------------
-Chrome | Works as expected
-Firefox | Works as expected
-Microsoft Edge | Works as expected
-Mac OS Safari | Works as expected
-## Device Testing
-Device Tested | Working Status
---------------|---------------
-iPhone 8 Plus | Works as expected
-Huawei Nova T5 | Works as expected
-Samsung S7 | Small amount of vertical scroll as expected but still functional
-
-
-
-
-## Validator Testing
 
 ## Bugs
 
