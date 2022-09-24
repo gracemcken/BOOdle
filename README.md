@@ -37,7 +37,8 @@
 
 
 # Site Overview
-[Link to Live Website](https://gracemcken.github.io/BOOdle/)
+- [Link to live website](https://gracemcken.github.io/BOOdle/)
+- [Link to repo](https://github.com/gracemcken/BOOdle)
 
 ## Goal
 
