@@ -88,6 +88,8 @@ I decided I wanted to add some atmospheric music to the game, however was very a
 
 ![music-toggle](docs/readme_images/music-toggle.gif)
 
+
+
 ## Future Features
 - I would like to create a colour blind mode, similar to what the official Wordle game has. When testing, I ensured there was enough contrast with my colours, however once I finished coding my project I discovered a chrome extension which simulates colour blindness. While having high contrasting colours did help, I still found it quite difficult to play the game. I've since done some research on how to make a colour blind mode and would like to implement it in the future to make the game as accessible as I can. 
 - I would like to add more words, and perhaps a function that would let words larger than five letters be selected. This would require tweeking the JavaScript and CSS a great deal and was beyond my scope for this project, but I think the option of longer or shorter words would be excellent.
