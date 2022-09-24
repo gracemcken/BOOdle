@@ -21,6 +21,7 @@
     - [Rules Button](#rules-button)
     - [Music Toggle](#music-toggle)
     - [The Game Tiles and Keyboard](#the-game-tiles-and-keyboard)
+    - [Win Screen and Refresh](#win-screen-and-refresh)
   - [Future Features](#future-features)
 - [Design](#design)
   - [Wireframes](#wireframes)
@@ -92,6 +93,11 @@ I decided I wanted to add some atmospheric music to the game, however was very a
 Our main game appearance is very similar to the original Wordle game, although colours are different to suit our theme. Once a word is typed in and enter is clicked, it will trigger a flipping animation on the tiles; changing tile colour depending on whether or not a letter is present in the word, present in the word but in the wrong place, or present in the word and in the correct place. At the same time, the keys pressed also change colour.
 
 ![tiles-flipping-and-keys](docs/readme_images/tiles-flipping-and-keys.gif)
+
+### Win Screen and Refresh
+If you guess the correct word, a pop up message will appear containing a button that when clicked, will refresh the page and restart the game. 
+
+![game-win-screen](docs/readme_images/game-win-refresh.gif)
 
 ## Future Features
 - I would like to create a colour blind mode, similar to what the official Wordle game has. When testing, I ensured there was enough contrast with my colours, however once I finished coding my project I discovered a chrome extension which simulates colour blindness. While having high contrasting colours did help, I still found it quite difficult to play the game. I've since done some research on how to make a colour blind mode and would like to implement it in the future to make the game as accessible as I can. 
