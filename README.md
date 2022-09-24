@@ -44,7 +44,7 @@
 - [Link to repo](https://github.com/gracemcken/BOOdle)
 
 ## Goal
-
+The goal of this project was to produce a game based on the famous puzzle 'Wordle', while adding my own personalized spin on it. I wanted to make a puzzle game that would appeal more to children around Halloween time, using words that they would be familiar with during the month of October. I thought this would be a fun way to introduce children to games like 'Wordle', which can be quite difficult for those with a smaller vocabulary than adults. By making it Halloween themed and using words children see every year around this time, it would be introducing them to the concept of 'Wordle' without the frustrations of the word being something they have never heard of before.
 
 <hr>
 
