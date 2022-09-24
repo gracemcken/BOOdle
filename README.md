@@ -1,4 +1,10 @@
-![Last commit](https://img.shields.io/github/last-commit/gracemcken/BOOdle)
+![boodle banner](docs/readme_images/boodle.png)
+<h1 align="center"> A Spooky reimaging of Wordle!</h1>
+
+![Last commit](https://img.shields.io/github/last-commit/gracemcken/BOOdle) ![HTML](https://img.shields.io/badge/HTML-Validated-brightgreen)  ![CSS](https://img.shields.io/badge/CSS-Validated-green)  ![JS](https://img.shields.io/badge/JavaScript-Validated-yellowgreen)
+![Languages used](https://img.shields.io/github/languages/count/gracemcken/boodle)
+![Top Language used](https://img.shields.io/github/languages/top/gracemcken/boodle)
+![amiresponsive](docs/readme_images/amiresponsive.png)
 
 # Table of Contents
 
