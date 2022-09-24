@@ -1,5 +1,5 @@
-![boodle banner](docs/readme_images/boodle.png)
-<h1 align="center"> A Spooky reimaging of Wordle!</h1>
+![boodle banner](docs/readme_images/boodle-banner.png)
+
 
 ![Last commit](https://img.shields.io/github/last-commit/gracemcken/BOOdle) ![HTML](https://img.shields.io/badge/HTML-Validated-brightgreen)  ![CSS](https://img.shields.io/badge/CSS-Validated-green)  ![JS](https://img.shields.io/badge/JavaScript-Validated-yellowgreen)
 ![Languages used](https://img.shields.io/github/languages/count/gracemcken/boodle)
@@ -20,6 +20,9 @@
   - [Future Features](#future-features)
 - [Design](#design)
   - [Wireframes](#wireframes)
+    - [Desktop](#desktop)
+    - [Tablet](#tablet)
+    - [Mobile](#mobile)
   - [Typography](#typography)
   - [Images](#images)
   - [Colour Scheme](#colour-scheme)
@@ -80,11 +83,20 @@
 
 
 # Design
+As this was going to be a Wordle clone, I wanted my project to resemble it enough that it would be recognizable, while also maintaining the uniqueness I wanted to give it. Choosing Halloween as a theme opened up many options design wise, both visually and in regards to functionality. Where a general Wordle clone might use an API to randomize words, I only wanted words relating to Halloween to appear. Below is a mind map of how I approached designing specific features.
 
+![mind-map](docs/readme_images/mind-map.png)
+
+<hr>
 
 ## Wireframes
+My draft idea of what the site would look like is shown in the wireframes below. During development, the project changed slightly and doesn't resemble the original plans exactly, but I believe the final product turned out good.
+### Desktop
 ![browser](docs/wireframes/browser.png)
+### Tablet
 ![tablet](docs/wireframes/tablet.png)
+
+### Mobile
 ![mobile](docs/wireframes/mobile.png)
 
 
