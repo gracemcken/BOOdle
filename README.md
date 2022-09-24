@@ -30,16 +30,16 @@
     - [Tablet](#tablet)
     - [Mobile](#mobile)
   - [Typography](#typography)
-  - [Images](#images)
   - [Colour Scheme](#colour-scheme)
 - [Testing](#testing)
   - [Functional Testing](#functional-testing)
   - [Browser Testing](#browser-testing)
+  - [Device Testing](#device-testing)
   - [Validator Testing](#validator-testing)
   - [Bugs](#bugs)
   - [Known Issues](#known-issues)
 - [Credits](#credits)
-    - [Images](#images-1)
+    - [Images](#images)
     - [Music](#music)
     - [Version Control](#version-control)
 - [Acknowledgments](#acknowledgments)
@@ -131,11 +131,6 @@ My draft idea of what the site would look like is shown in the wireframes below.
 
 ## Typography
 
-
-
-## Images
-
-
 ## Colour Scheme
 
 When choosing the colour scheme for this project, I had a very clear idea in my mind of what I wanted. Due to the Halloween theme, I felt some oranges, browns and dark yellows suited it most. I did however have to change where I used certain colours. 
@@ -150,10 +145,19 @@ For example, I used #D05301 as the colour for the keys, with white as the font c
 
 
 ## Browser Testing 
-- Page behaves as expected in all browsers tested. The website was tested in .
+Browser Tested | Working Status
+---------------|---------------
+Chrome | Works as expected
+Firefox | Works as expected
+Microsoft Edge | Works as expected
+Mac OS Safari | Works as expected
+## Device Testing
+Device Tested | Working Status
+--------------|---------------
+iPhone 8 Plus | Works as expected
+Huawei Nova T5 | Works as expected
+Samsung S7 | Small amount of vertical scroll as expected but still functional
 
-
-- On the mobile and tablet website was tested in
 
 
 
