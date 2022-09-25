@@ -147,7 +147,7 @@ Page refreshed before button was clicked | Resolved; when adding event listener,
 Keys squished too much on smaller screens | Resolved; added height reduction in media queries.
 After game over appears, user can still erase letters and continue trying new words in the last row | Unresolved (Part of me likes this bug as it's nice for those who get frustrated easily. Like me for example.)
 JSHint error showing togglePlay() being unused as was being called in index.html file | Resolved; removed function from index.html file and added event listener to JavaScript file instead.
-
+Words with more than one letter repeated had incorrect colours. | Resolved; swapped order of over-lay colours in CSS so that green takes precedence over yellow.
 ## Known Issues
 - On smaller screen sizes, the keyboard becomes slightly more squished. I attempted to fix this to the best of my ability but I feel this is still an issue.
 - On some small screens there is a small amount on vertical scroll, initially it was worse and the user could not see the first row of tiles when using the keyboard but I changed the CSS to fix this. While there's still a small amount of scroll on some small screens, it now does not disrupt the game.
