@@ -140,14 +140,14 @@ For example, I used #D05301 as the colour for the keys, with white as the font c
 
 Bug | Status 
 ----|-------
-Keyboard overflowed on smaller screen sizes| Resolved
-Keyboard disappeared during changes for responsiveness | Resolved
-Favicon would not show on live site | Resolved
-Win message showing incorrectly behind tiles | Resolved
-Page refreshed before button was clicked | Resolved
-Keys squished too much on smaller screens | Resolved
+Keyboard overflowed on smaller screen sizes| Resolved; placed each row of keys in a separate array,wrapped each row of keys in a div so they could be made responsive individually.
+Keyboard disappeared during changes for responsiveness | Resolved; CSS error.
+Favicon would not show on live site | Resolved; link was not placed in the header.
+Win message showing incorrectly behind tiles | Resolved, added z-index.
+Page refreshed before button was clicked | Resolved; when adding event listener, removed () after function. 
+Keys squished too much on smaller screens | Resolved; added height reduction in media queries.
 After game over appears, user can still erase letters and continue trying new words in the last row | Unresolved (Part of me likes this bug as it's nice for those who get frustrated easily. Like me for example.)
-
+JSHint error showing togglePlay() being unused as was being called in index.html file |  
 
 ## Known Issues
 - On smaller screen sizes, the keyboard becomes slightly more squished. I attempted to fix this to the best of my ability but I feel this is still an issue.
