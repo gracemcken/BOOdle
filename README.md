@@ -163,6 +163,7 @@ WAVE error for empty label field for music toggle button | Resolved; added scree
 ## Known Issues
 - On smaller screen sizes, the keyboard becomes slightly more squished. I attempted to fix this to the best of my ability but I feel this is still an issue.
 - On some small screens there is a small amount on vertical scroll, initially it was worse and the user could not see the first row of tiles when using the keyboard but I changed the CSS to fix this. While there's still a small amount of scroll on some small screens, it now does not disrupt the game.
+- If the user types in the incorrect word in the last row, the flipping tiles very briefly overlaps the game over message. This lasts for a split second and is very difficult to notice, so I left this as it is rather than attempt to change the code so close to my submission date.
 
 
 # Deployment 
