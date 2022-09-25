@@ -69,6 +69,7 @@ The goal of this project was to produce a game based on the famous puzzle 'Wordl
 
 # UX
 ## Target Audience
+My main target audience for this game would be children and those who prefer 
 
 ## User Stories
 
@@ -145,6 +146,8 @@ Favicon would not show on live site | Resolved
 Win message showing incorrectly behind tiles | Resolved
 Page refreshed before button was clicked | Resolved
 Keys squished too much on smaller screens | Resolved
+After game over appears, user can still erase letters and continue trying new words in the last row | Unresolved (Part of me likes this bug as it's nice for those who get frustrated easily. Like me for example.)
+
 
 ## Known Issues
 - On smaller screen sizes, the keyboard becomes slightly more squished. I attempted to fix this to the best of my ability but I feel this is still an issue.
