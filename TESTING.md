@@ -9,6 +9,7 @@
   - [Device Testing](#device-testing)
   - [Validator Testing](#validator-testing)
   - [Lighthouse Testing](#lighthouse-testing)
+  - [Accessibility Testing](#accessibility-testing)
 
 <hr>
 
@@ -71,3 +72,10 @@ Device | Result
 -------|-------
 Desktop| ![desktop-lighthouse](docs/testing_images/desktop-lighthouse.png)
 Mobile | ![mobile-lighthouse](docs/testing_images/mobile-lighthouse.png)
+
+## Accessibility Testing
+
+![wave-testing](docs/testing_images/wave-testing.png)
+![wave-results](docs/testing_images/wave-results.png)
+
+Although there were three alerts during WAVE testing, I was not too worried about them as the first two were irrelevant to the website because it is a game and not a traditional webpage, and then the last one was not an issue as the music had no lyrics to transcript.
