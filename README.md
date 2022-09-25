@@ -171,6 +171,7 @@ WAVE error for empty label field for music toggle button | Resolved; added scree
 - Toggle CSS was learned [here](https://www.w3schools.com/howto/howto_css_switch.asp) Credit to W3Schools.
 - Implementing play and pause music using JavaScript was learned [here](https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click) on Slack Overflow.
 - Instructions on how to add a label only visible to screen readers was found [here](https://tailwindcss.com/docs/screen-readers)
+- Inspiration of course from [Wordle](https://www.nytimes.com/games/wordle/index.html)
 ### Images
 The image of the ghost was found on [looka.com](looka.com).
 
