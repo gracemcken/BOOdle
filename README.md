@@ -83,12 +83,12 @@ My main target audience for this game would be children and those who prefer an 
 
 ## Existing Features
 ### Rules Button
-To ensure the user understands the rules of the game, I included a modal that fills the screen when the rules button is clicked. While the modal is active, and overlay covers the rest of the screen and prevents the user from clicking on anything else until they close it.
+*Relevant user story: I want to find out what the purpose of the site is easily & I want to understand how to play the game* To ensure the user understands the rules of the game, I included a modal that fills the screen when the rules button is clicked. While the modal is active, and overlay covers the rest of the screen and prevents the user from clicking on anything else until they close it.
 
 ![rules-modal](docs/readme_images/rules-popup.gif)
 
 ### Music Toggle
-I decided I wanted to add some atmospheric music to the game, however was very aware that people do not enjoy autoplaying music. The solution to this was a toggle at the top of the game beside the rules button. The user simply clicks it once to start the music, and then can click it again to pause it. If the user wants to continue the music, all they have to do is click again and it will resume where it had been paused.
+*Relevant user story: I want to easily be able to enable background music.* I decided I wanted to add some atmospheric music to the game, however was very aware that people do not enjoy autoplaying music. The solution to this was a toggle at the top of the game beside the rules button. The user simply clicks it once to start the music, and then can click it again to pause it. If the user wants to continue the music, all they have to do is click again and it will resume where it had been paused.
 
 ![music-toggle](docs/readme_images/music-toggle.gif)
 
@@ -98,12 +98,12 @@ Our main game appearance is very similar to the original Wordle game, although c
 ![tiles-flipping-and-keys](docs/readme_images/tiles-flipping-and-keys.gif)
 
 ### Win Screen and Refresh
-If you guess the correct word, a pop up message will appear containing a button that when clicked, will refresh the page and restart the game. 
+*Relevant user story: I want to play the game again if I win or lose.* If you guess the correct word, a pop up message will appear containing a button that when clicked, will refresh the page and restart the game. 
 
 ![game-win-screen](docs/readme_images/game-win-refresh.gif)
 
 ### Game Over and Refresh
-Similarly, if you use up all of your attempts at guessing the word, a notification will pop up telling you that it's game over and will provide you with a button to click that will refresh the page so you can try again.
+*Relevant user story: I want to play the game again if I win or lose.* Similarly, if you use up all of your attempts at guessing the word, a notification will pop up telling you that it's game over and will provide you with a button to click that will refresh the page so you can try again.
 
 ![game-over](docs/readme_images/game-over.gif)
 
