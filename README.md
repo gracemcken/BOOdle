@@ -31,6 +31,7 @@
     - [Mobile](#mobile)
   - [Typography](#typography)
   - [Colour Scheme](#colour-scheme)
+- [Testing](#testing)
   - [Bugs](#bugs)
   - [Known Issues](#known-issues)
 - [Deployment](#deployment)
@@ -142,7 +143,8 @@ For example, I used #D05301 as the colour for the keys, with white as the font c
 
 ![colour-scheme](docs/readme_images/colour-scheme.png)
 
-
+# Testing
+Testing document can be found [here](TESTING.md)
 ## Bugs
 
 Bug | Status 
