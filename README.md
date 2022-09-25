@@ -183,4 +183,5 @@ License code: KRILPLHGWRT1Q9CM
 - Special thanks to Bim Williams and Brynjar Nilsen for their help with responsiveness, when I thought all hope was lost they brought me back down to Earth reminding me that making things more complicated isn't always the worst thing in the world.
 - To my partner James who came up with the list of words and who fed me when I got too engrossed in coding to remember to eat.
 - My mentor Spencer, who suggested adding music and as always has been extremely supportive during our meetings.
+- To Sean Young who helped me deal with a last minute bug!
 
