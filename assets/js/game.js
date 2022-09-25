@@ -4,10 +4,11 @@ const keyboard = document.querySelector(".key-container");
 const messageDisplay = document.querySelector(".message-container");
 
 //Music toggle
-function togglePlay() {
+let play = document.getElementById("play");
+play.addEventListener("click", () => {
   let myAudio = document.getElementById("myAudio");
   return myAudio.paused ? myAudio.play() : myAudio.pause();
-}
+});
 
 //rules pop up functions
 const openRulesButton = document.querySelectorAll("[data-rules-target]");
