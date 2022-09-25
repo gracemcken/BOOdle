@@ -60,3 +60,8 @@ JShint JavaScript Validator | ![initial-js-result](docs/testing_images/initial-j
 
 
 ## Lighthouse Testing
+
+Device | Result
+-------|-------
+Desktop| ![desktop-lighthouse](docs/testing_images/desktop-lighthouse.png)
+Mobile | ![mobile-lighthouse](docs/testing_images/mobile-lighthouse.png)
