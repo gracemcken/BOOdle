@@ -112,6 +112,7 @@ Our main game appearance is very similar to the original Wordle game, although c
 - I would like to create a colour blind mode, similar to what the official Wordle game has. When testing, I ensured there was enough contrast with my colours, however once I finished coding my project I discovered a chrome extension which simulates colour blindness. While having high contrasting colours did help, I still found it quite difficult to play the game. I've since done some research on how to make a colour blind mode and would like to implement it in the future to make the game as accessible as I can. 
 - I would like to add more words, and perhaps a function that would let words larger than five letters be selected. This would require tweeking the JavaScript and CSS a great deal and was beyond my scope for this project, but I think the option of longer or shorter words would be excellent.
 - If the previous feature was implemented, then maybe a feature where the user could choose how many letter words the game chooses from, or a difficulty level for the words. I think this would be extremely beneficial for children who want to expand their vocabulary, but mean the game is still suitable for younger children. 
+- An dictionary API that would mean users would have to enter a real word rather than just random letters. This would stop people 'cheating' by just using up letters. At the time of this project, I could not find a dictionary API that did not cost money.
 
 
 
