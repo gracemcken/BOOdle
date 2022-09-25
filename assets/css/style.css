@@ -208,13 +208,13 @@ input:checked + .slider:before {
   border: none !important;
 }
 
-.yellow-overlay {
-  background-color: #b59f4a !important;
+.green-overlay {
+  background-color: #538d4e !important;
   border: none !important;
 }
 
-.green-overlay {
-  background-color: #538d4e !important;
+.yellow-overlay {
+  background-color: #b59f4a !important;
   border: none !important;
 }
 
