@@ -35,6 +35,7 @@
   - [Bugs](#bugs)
   - [Known Issues](#known-issues)
 - [Deployment](#deployment)
+  - [How to Fork](#how-to-fork)
 - [Credits](#credits)
     - [Images](#images)
     - [Music](#music)
@@ -165,6 +166,19 @@ WAVE error for empty label field for music toggle button | Resolved; added scree
 
 
 # Deployment 
+This website is deployed on GitHub Pages. The method I followed to do this was as follows:
+1. Login or signup to [GitHub](https://github.com/)
+2. Locate the relevant repository - in this case [gracemcken/BOOdle](https://github.com/gracemcken/BOOdle)
+3. Go to settings, which is usually the last option in the navigation bar.
+4. Scroll down until you see the Pages option on the left-hand side and click into it.
+5. Select `main` in the Source drop down box below the 'Build and deployment' title and click save.
+6. It might take a few minutes for your site to become active, however a link will appear once ready.
+
+## How to Fork
+1. Login/signup to [GitHub](https://github.com/).
+2. Locate the relevant repository - in this case [gracemcken/BOOdle](https://github.com/gracemcken/BOOdle)
+3. Click on the 'Fork' button in the upper left.
+4. Your forked version of this repo will be generated!
 # Credits
 - Game logic walkthrough that was followed can be found [here](https://www.youtube.com/watch?v=mpby4HiElek). Credit to Ania Kubów.
 - Tutorial on building a modal for the rules can be found [here](https://www.youtube.com/watch?v=MBaw_6cPmAw). Credit to Web Dev Simplified.
