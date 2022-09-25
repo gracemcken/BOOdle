@@ -53,3 +53,4 @@ Samsung S7 | Small amount of vertical scroll as expected but still functional
 Test Type | Initial Result | Pass Result
 ----------|----------------|------------
 W3C HTML Validator | ![initial-w3c-result](docs/testing_images/initial-w3c-result.png) | ![final-w3c-result](docs/testing_images/final-w3c-result.png)
+W3C CSS Validator | ![css-result](docs/testing_images/css-result.png) | ![css-result](docs/testing_images/css-result.png)
