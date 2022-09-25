@@ -52,11 +52,11 @@ iPhone SE 2020 | Works as expected
 
 ## Validator Testing
 
-Test Type | Initial Result | Final Result
-----------|----------------|------------
-W3C HTML Validator | ![initial-w3c-result](docs/testing_images/initial-w3c-result.png) | ![final-w3c-result](docs/testing_images/final-w3c-result.png)
-W3C CSS Validator | ![css-result](docs/testing_images/css-result.png) | ![css-result](docs/testing_images/css-result.png)
-JShint JavaScript Validator | ![initial-js-result](docs/testing_images/initial-js-result.png) |
+Test Type | Initial Result | Final Result | Errors remaining
+----------|----------------|--------------|-----------------
+W3C HTML Validator | ![initial-w3c-result](docs/testing_images/initial-w3c-result.png) | ![final-w3c-result](docs/testing_images/final-w3c-result.png) | 0
+W3C CSS Validator | ![css-result](docs/testing_images/css-result.png) | ![css-result](docs/testing_images/css-result.png) | 0
+JShint JavaScript Validator | ![initial-js-result](docs/testing_images/initial-js-result.png) | ![final-js-result](docs/testing_images/final-js-result.png) | 0
 
 
 
