@@ -45,8 +45,9 @@ Device Tested | Working Status
 iPhone 8 Plus | Works as expected
 Huawei Nova T5 | Works as expected
 Samsung S7 | Small amount of vertical scroll as expected but still functional
-
-
+Huawei P30 Lite | Works as expected
+Samsung A21s | Works as expected
+iPhone SE 2020 | Works as expected
 <hr>
 
 ## Validator Testing
