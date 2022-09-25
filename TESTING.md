@@ -54,6 +54,8 @@ iPhone 7 | Works as expected
 iPad (unsure of model or year)| Works as expected
 Samsung Galaxy S20 FE | As expected
 OnePlus 6 | As expected
+iPhone 11 Pro | Mostly as expected, keyboard slightly cut off but functional
+iPhone 11 | Mostly as expected, keyboard slightly cut off but functional
 <hr>
 
 ## Validator Testing
