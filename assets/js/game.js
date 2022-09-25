@@ -5,7 +5,7 @@ const messageDisplay = document.querySelector(".message-container");
 
 //Music toggle
 function togglePlay() {
-  document.getElementById("isAudio");
+  let myAudio = document.getElementById("myAudio");
   return myAudio.paused ? myAudio.play() : myAudio.pause();
 }
 
