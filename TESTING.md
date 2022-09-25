@@ -48,6 +48,11 @@ Samsung S7 | Small amount of vertical scroll as expected but still functional
 Huawei P30 Lite | Works as expected
 Samsung A21s | Works as expected
 iPhone SE 2020 | Works as expected
+iPhone X | Works mostly as expected, keyboard slightly off center but functional
+iPhone 7 | Works as expected
+iPad (unsure of modal or year)| Works as expected
+Samsung Galaxy S20 FE | As expected
+OnePlus 6 | As expected
 <hr>
 
 ## Validator Testing
