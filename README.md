@@ -125,6 +125,7 @@ My draft idea of what the site would look like is shown in the wireframes below.
 
 
 ## Typography
+For text in this project, I used 'Noto Sans Buhid' for everything other than header text, and "Noto Serif Georgian" for headings. I felt these fonts were simplistic enough not to detract from the game itself, yet still add a bit of style to the text.
 
 ## Colour Scheme
 
