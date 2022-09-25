@@ -68,10 +68,15 @@ The goal of this project was to produce a game based on the famous puzzle 'Wordl
 
 # UX
 ## Target Audience
-My main target audience for this game would be children and those who prefer 
+My main target audience for this game would be children and those who prefer an easier, fun, more relaxed version of Wordle. The theme of Halloween narrows down what the words could possibly be, therefore making it less frustrating to those who may have a smaller vocabulary like children.
 
 ## User Stories
 
+- As a user:
+  - I want to find out what the purpose of the site is easily
+  - I want to understand how to play the game
+  - I want to easily be able to enable background music
+  - I want to play the game again if I win or lose
 # Features
 
 ## Existing Features
@@ -104,6 +109,7 @@ Similarly, if you use up all of your attempts at guessing the word, a notificati
 - I would like to create a colour blind mode, similar to what the official Wordle game has. When testing, I ensured there was enough contrast with my colours, however once I finished coding my project I discovered a chrome extension which simulates colour blindness. While having high contrasting colours did help, I still found it quite difficult to play the game. I've since done some research on how to make a colour blind mode and would like to implement it in the future to make the game as accessible as I can. 
 - I would like to add more words, and perhaps a function that would let words larger than five letters be selected. This would require tweeking the JavaScript and CSS a great deal and was beyond my scope for this project, but I think the option of longer or shorter words would be excellent.
 - If the previous feature was implemented, then maybe a feature where the user could choose how many letter words the game chooses from, or a difficulty level for the words. I think this would be extremely beneficial for children who want to expand their vocabulary, but mean the game is still suitable for younger children. 
+
 
 
 # Design
