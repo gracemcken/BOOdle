@@ -3,7 +3,7 @@
 
 * {
   color: #ffffff;
-  font-family: "Noto Sans Buhid";
+  font-family: "Noto Sans Buhid", sans-serif;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-family: "Noto Serif Georgian";
+  font-family: "Noto Serif Georgian", serif;
 }
 
 ul li {
