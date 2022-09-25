@@ -64,7 +64,6 @@ The goal of this project was to produce a game based on the famous puzzle 'Wordl
 - [Favicon.io](https://favicon.io/favicon-generator/) to create a favicon.
 - [Font Awesome](https://fontawesome.com/) for icons.
 - [Red Route](https://red-route.org/code/image-resizing-calculator) to help with size calculations for my keyboard buttons.
-- [WAVE](https://wave.webaim.org/)
 
 
 # UX
@@ -147,7 +146,7 @@ Win message showing incorrectly behind tiles | Resolved, added z-index.
 Page refreshed before button was clicked | Resolved; when adding event listener, removed () after function. 
 Keys squished too much on smaller screens | Resolved; added height reduction in media queries.
 After game over appears, user can still erase letters and continue trying new words in the last row | Unresolved (Part of me likes this bug as it's nice for those who get frustrated easily. Like me for example.)
-JSHint error showing togglePlay() being unused as was being called in index.html file |  
+JSHint error showing togglePlay() being unused as was being called in index.html file | Resolved; removed function from index.html file and added event listener to JavaScript file instead.
 
 ## Known Issues
 - On smaller screen sizes, the keyboard becomes slightly more squished. I attempted to fix this to the best of my ability but I feel this is still an issue.
