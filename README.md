@@ -33,6 +33,7 @@
   - [Colour Scheme](#colour-scheme)
   - [Bugs](#bugs)
   - [Known Issues](#known-issues)
+- [Deployment](#deployment)
 - [Credits](#credits)
     - [Images](#images)
     - [Music](#music)
@@ -155,15 +156,19 @@ Keys squished too much on smaller screens | Resolved; added height reduction in 
 After game over appears, user can still erase letters and continue trying new words in the last row | Unresolved (Part of me likes this bug as it's nice for those who get frustrated easily. Like me for example.)
 JSHint error showing togglePlay() being unused as was being called in index.html file | Resolved; removed function from index.html file and added event listener to JavaScript file instead.
 Words with more than one letter repeated had incorrect colours. | Resolved; swapped order of over-lay colours in CSS so that green takes precedence over yellow.
+WAVE error for empty label field for music toggle button | Resolved; added screen-reader only class to a `<p>` with label inside.
 ## Known Issues
 - On smaller screen sizes, the keyboard becomes slightly more squished. I attempted to fix this to the best of my ability but I feel this is still an issue.
 - On some small screens there is a small amount on vertical scroll, initially it was worse and the user could not see the first row of tiles when using the keyboard but I changed the CSS to fix this. While there's still a small amount of scroll on some small screens, it now does not disrupt the game.
 
+
+# Deployment 
 # Credits
 - Game logic walkthrough that was followed can be found [here](https://www.youtube.com/watch?v=mpby4HiElek). Credit to Ania Kubów.
 - Tutorial on building a modal for the rules can be found [here](https://www.youtube.com/watch?v=MBaw_6cPmAw). Credit to Web Dev Simplified.
 - Toggle CSS was learned [here](https://www.w3schools.com/howto/howto_css_switch.asp) Credit to W3Schools.
 - Implementing play and pause music using JavaScript was learned [here](https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click) on Slack Overflow.
+- Instructions on how to add a label only visible to screen readers was found [here](https://tailwindcss.com/docs/screen-readers)
 ### Images
 The image of the ghost was found on [looka.com](looka.com).
 
