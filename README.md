@@ -6,7 +6,6 @@
 ![Top Language used](https://img.shields.io/github/languages/top/gracemcken/boodle)
 
 - [Link to live website](https://gracemcken.github.io/BOOdle/)
-- [Link to repo](https://github.com/gracemcken/BOOdle)
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
